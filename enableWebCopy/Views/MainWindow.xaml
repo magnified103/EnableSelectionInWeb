@@ -1,0 +1,60 @@
+﻿<Window x:Class="enableWebCopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:enableWebCopy"
+        mc:Ignorable="d"
+        Title="EnableTextSelection" Height="450" Width="800">
+    <TabControl Margin="10"
+                TabStripPlacement="Left">
+        <TabItem Header="General"
+                 Height="60">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="2"
+                           Margin="5"
+                           FontSize="15"
+                           Opacity="0.5">
+                    <Bold>
+                        Enter web URL:
+                    </Bold>
+                </TextBlock>
+                <TextBox Grid.Row="1"
+                         Grid.Column="0"
+                         Margin="5"
+                         Name="urlBox"
+                         FontSize="15"
+                         VerticalContentAlignment="Center"
+                         TextChanged="urlBoxChanged"
+                />
+                <Button Grid.Row="4"
+                        Grid.Column="1"
+                        Margin="5"
+                        Click="startPatching">
+                    Process!
+                </Button>
+                <TextBox Grid.Row="3"
+                         Grid.Column="0"
+                         Margin="5"
+                         IsReadOnly="True"
+                         FontSize="14"
+                         VerticalScrollBarVisibility="Auto"
+                         Text="{Binding Path=FullLog, Mode=TwoWay}"
+                />
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

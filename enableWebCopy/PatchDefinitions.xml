@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PatchingTypes>
+  <ReplaceAllMatchesNodes>
+    <ReplaceNode>
+      <ToReplace>contextmenu</ToReplace>
+      <ReplaceWith></ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>-webkit-touch-callout: none</ToReplace>
+      <ReplaceWith>-webkit-touch-callout: auto</ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>-webkit-user-select: none</ToReplace>
+      <ReplaceWith>-webkit-user-select: auto</ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>-moz-user-select: none</ToReplace>
+      <ReplaceWith>-moz-user-select: auto</ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>-ms-user-select: none</ToReplace>
+      <ReplaceWith>-ms-user-select: auto</ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>-o-user-select: none</ToReplace>
+      <ReplaceWith>-o-user-select: auto</ReplaceWith>
+    </ReplaceNode>
+    <ReplaceNode>
+      <ToReplace>user-select: none</ToReplace>
+      <ReplaceWith>user-select: auto</ReplaceWith>
+    </ReplaceNode>
+  </ReplaceAllMatchesNodes>
+</PatchingTypes>

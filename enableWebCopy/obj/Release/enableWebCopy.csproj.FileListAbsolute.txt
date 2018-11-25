@@ -1,0 +1,15 @@
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\bin\Release\enableWebCopy.exe.config
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\bin\Release\enableWebCopy.exe
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\bin\Release\enableWebCopy.pdb
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\Views\MainWindow.g.cs
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\Views\App.g.cs
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy_MarkupCompile.cache
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy_MarkupCompile.lref
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\Views\MainWindow.baml
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.g.resources
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.Properties.Resources.resources
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.csproj.GenerateResource.cache
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.csproj.CoreCompileInputs.cache
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.exe
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.pdb
+C:\Users\dung1\Documents\CODING file\VS 2017\enableWebCopy\enableWebCopy\obj\Release\enableWebCopy.csprojAssemblyReference.cache
